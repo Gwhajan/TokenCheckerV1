@@ -37,18 +37,16 @@ You can place your tokens in a text file named `tokens.txt`, with each token on 
 
 ## Configuration
 
-You can adjust the following settings in `config.json`:
+You can adjust the following settings in `config.toml`:
 
-* `timeout`: Set the timeout for each request.
-* `threads`: Number of threads to use for faster processing.
+*`threads`: The number of concurrent threads for checking tokens.
+*`proxyless`: If true, the checker runs without proxies. If false, it expects a
 
 Example configuration:
 
-```json
-{
-  "timeout": 5,
-  "threads": 10
-}
+```toml
+threads = 50
+proxyless = true
 ```
 
 ## Contributing
