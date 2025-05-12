@@ -39,8 +39,9 @@ You can place your tokens in a text file named `tokens.txt`, with each token on 
 
 You can adjust the following settings in `config.toml`:
 
-*`threads`: The number of concurrent threads for checking tokens.
-*`proxyless`: If true, the checker runs without proxies. If false, it expects a
+* `threads`: The number of concurrent threads for checking tokens.
+
+* `proxyless`: If true, the checker runs without proxies. If false, it expects a
 
 Example configuration:
 
